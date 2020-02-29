@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>感情と堆積</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="scrollreveal-master/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+	<div class="mv">
+		<div class="logo">
+			<a><img src="image/logo.svg" alt="感情と堆積"></a>
+		</div>
+		<div class="scrl">
+			<a><img src="image/scrl.png" alt="スクロール"></a>
+		</div>
+		<!-- <div class="day">
+			<a><img src="title/0229.svg" alt="02.29"></a>
+		</div> -->
+	</div>
+
+	<div class="cssgrid">
+		<div class="linegraph" data-plugin-options='{"reverse": false}'>
+			<!-- <img src="image/linegraph.svg" alt="ライングラフ"> -->
+			<p>2/1</p>
+			<img class="graph" src="linegragh/2020-02-01.svg" alt="ライングラフ001">
+		</div>
+		<div class="linegraph" data-plugin-options='{"reverse": false}'>
+			<!-- <img src="image/linegraph.svg" alt="ライングラフ"> -->
+			<p>2/2</p>
+			<img class="graph" src="linegragh/2020-02-02.svg" alt="ライングラフ002">
+		</div>
+		<div class="linegraph" data-plugin-options='{"reverse": false}'>
+			<!-- <img src="image/linegraph.svg" alt="ライングラフ"> -->
+			<p>2/3</p>
+			<img class="graph" src="linegragh/2020-02-29.svg" alt="ライングラフ001">
+		</div>
+		<div class="linegraph" data-plugin-options='{"reverse": false}'>
+			<!-- <img src="image/linegraph.svg" alt="ライングラフ"> -->
+			<p>2/4</p>
+			<img class="graph" src="linegragh/2020-02-29.svg" alt="ライングラフ001">
+		</div>
+	</div>
+
+	<div class="footer" data-plugin-options='{"reverse": false}'>
+		<img src="image/footer.svg" alt="フッター">
+	</div>
+
+	<script>
+		window.sr = ScrollReveal({ reset: false, mobile: true });
+		sr.reveal('.linegraph', { origin: 'bottom', distance: '30%', duration: 1700, scale: 1.0, delay: 200, opacity: 0, });
+	</script>
+</body>
+</html>
